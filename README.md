@@ -329,7 +329,7 @@ The API will return the following error types when requests fail:
 
 ### POST '/quizzes'
 - Gets a quiz based on category or a random selection depending on what the user chooses.
-- Returns a random question
+- Returns a random question.
 
 - Sample: `curl http://localhost:5000/quizzes -X POST -H "Content-Type: application/json" -d '{"previous_question":[], "category":{"type":"Entertainment","id":5}}'`
 ```
